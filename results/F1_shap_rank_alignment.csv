@@ -1,0 +1,5 @@
+Dataset,SHAP_Spearman_rho,p_value,Significance,Interpretation,Top1_Feature,Top1_SHAP,Top1_AbsRho,Top2_Feature,Top2_SHAP,Top2_AbsRho,Top3_Feature
+CloudTask,0.3561,0.1345,ns,No alignment - unlearnable (confirms negative control),Energy_Consumption_J,0.116774,0.0261,Task_Length_MIPS,0.108500,0.0149,Path_Load
+GoogleCluster,0.5707,0.0134,*,Alignment confirmed - SHAP confirms Spearman,scheduler,3.472883,0.8450,scheduling_class,1.946640,0.5487,assigned_memory
+ITIncident,0.8000,0.0031,**,Strong alignment - impact_enc decisive feature,impact_enc,4.480891,0.2217,urgency_enc,3.691330,0.1001,made_sla_enc
+MultiCloud,0.7253,0.0050,**,Strong alignment - latency/CPU top features,Service_Latency (ms),3.128570,0.2801,CPU_Utilization (%),2.840097,0.2630,Throughput (Requests/sec)

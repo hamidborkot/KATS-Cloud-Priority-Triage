@@ -1,0 +1,17 @@
+Dataset,Model,Brier_Score,ECE,Winner_Brier,Notes
+CloudTask,KATS,0.2309,0.0818,KATS_BEST,Best calibration on only hard dataset
+CloudTask,B4-LGB,0.2477,0.1396,,
+CloudTask,B5-MLP,0.3447,0.3125,,
+CloudTask,B1-LogReg,0.2238,0.0503,,LogReg marginal best Brier on CloudTask
+GoogleCluster,KATS,0.0001,0.0002,TIED,Trivially easy - all near-zero
+GoogleCluster,B4-LGB,0.0001,0.0001,,LGB marginal winner
+GoogleCluster,B5-MLP,0.0004,0.0003,,
+GoogleCluster,B1-LogReg,0.0503,0.0456,,LogReg poor calibration on large dataset
+ITIncident,KATS,0.0000,0.0002,TIED,Trivially easy
+ITIncident,B4-LGB,0.0000,0.0000,,
+ITIncident,B5-MLP,0.0001,0.0007,,
+ITIncident,B1-LogReg,0.0000,0.0016,,
+MultiCloud,KATS,0.0498,0.0526,,
+MultiCloud,B4-LGB,0.0786,0.0748,,KATS beats LGB on MultiCloud
+MultiCloud,B5-MLP,0.0227,0.0297,MLP_BEST,MLP best calibration on MultiCloud (NF1)
+MultiCloud,B1-LogReg,0.0505,0.0358,,

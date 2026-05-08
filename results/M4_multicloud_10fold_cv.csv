@@ -1,0 +1,7 @@
+Model,RecallHigh_mean,RecallHigh_std,PrecHigh_mean,MacroF1_mean,Kappa_mean,CV_folds,Dataset,Notes
+KATS,0.9222,0.0516,0.9257,0.8962,0.8440,10,MultiCloud (N=1000),QoS_Score removed - clean label
+B1-LogReg,0.9039,0.0518,0.8928,0.8899,0.8350,10,MultiCloud (N=1000),
+B2-DecTree,0.7654,0.0567,0.7819,0.7181,0.5770,10,MultiCloud (N=1000),
+B3-RF,0.8652,0.0805,0.8770,0.8301,0.7450,10,MultiCloud (N=1000),
+B4-LGB,0.8954,0.0715,0.9100,0.8671,0.8005,10,MultiCloud (N=1000),
+B5-MLP,0.9425,0.0479,0.9470,0.9387,0.9085,10,MultiCloud (N=1000),MLP best even with CV

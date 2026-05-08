@@ -1,0 +1,21 @@
+Dataset,Baseline,b01,b10,p_value,Significance,Direction,Notes
+CloudTask,B1-LogReg,1150,1310,0.001347,**,KATS_BETTER,Pooled across 5 seeds
+CloudTask,B2-DecTree,1203,1266,0.212120,ns,KATS_BETTER,
+CloudTask,B3-RF,397,312,0.001607,**,BASE_BETTER,RF slight edge on CloudTask
+CloudTask,B4-LGB,847,826,0.624860,ns,BASE_BETTER,
+CloudTask,B5-MLP,1101,1194,0.054805,ns,KATS_BETTER,
+GoogleCluster,B1-LogReg,9,37052,0.000000,***,KATS_BETTER,Massive gap - KATS right 37052 times when LR wrong
+GoogleCluster,B2-DecTree,19,147,0.000000,***,KATS_BETTER,
+GoogleCluster,B3-RF,7,17,0.066193,ns,KATS_BETTER,RF closely matched at ceiling
+GoogleCluster,B4-LGB,14,7,0.190430,ns,BASE_BETTER,LGB closely matched at ceiling
+GoogleCluster,B5-MLP,16,318,0.000000,***,KATS_BETTER,
+ITIncident,B1-LogReg,1,0,1.000000,ns,BASE_BETTER,All at ceiling - no discriminative power
+ITIncident,B2-DecTree,1,0,1.000000,ns,BASE_BETTER,
+ITIncident,B3-RF,0,3,0.248210,ns,KATS_BETTER,
+ITIncident,B4-LGB,1,0,1.000000,ns,BASE_BETTER,
+ITIncident,B5-MLP,1,4,0.371090,ns,KATS_BETTER,
+MultiCloud,B1-LogReg,70,76,0.679020,ns,KATS_BETTER,
+MultiCloud,B2-DecTree,33,219,0.000000,***,KATS_BETTER,
+MultiCloud,B3-RF,21,111,0.000000,***,KATS_BETTER,
+MultiCloud,B4-LGB,29,85,0.000000,***,KATS_BETTER,
+MultiCloud,B5-MLP,85,22,0.000000,***,BASE_BETTER,MLP beats KATS on clean MultiCloud (NF1)
