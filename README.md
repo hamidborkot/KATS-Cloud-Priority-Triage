@@ -1,9 +1,6 @@
 # KATS: Knowledge-Aware Triage System
 ## Asymmetric Stacking Ensemble for Cloud Task Priority Classification
 
-> **Target Journal:** IEEE Transactions on Cloud Computing (TCC)
-> **Author:** MD Hamid Borkot Tulla
-> **Affiliation:** Université Bourgogne
 > **Status:** All 11 experiments complete ✅ — manuscript writing in progress
 
 ---
@@ -250,7 +247,7 @@ Script A → B → C → D → E → F → G → H → I → J → K
 | §2 Related Work | In progress |
 | §1 Introduction + §13 Conclusion | Last |
 
-**Target venue:** IEEE Transactions on Cloud Computing (TCC) — IF 5.9
+
 
 ---
 
