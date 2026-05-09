@@ -253,7 +253,7 @@ Script A → B → C → D → E → F → G → H → I → J → K
 
 ## Citation
 
-> MD Hamid Borkot Tulla. *KATS: Knowledge-Aware Triage System for Asymmetric Priority Classification in Heterogeneous Cloud Environments.* Manuscript in preparation for IEEE Transactions on Cloud Computing, 2026.
+> MD Hamid Borkot Tulla. *KATS: Knowledge-Aware Triage System for Asymmetric Priority Classification in Heterogeneous Cloud Environments.* 2026.
 
 ---
 
