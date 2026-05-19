@@ -5,21 +5,25 @@ CloudTask,B2-DecTree,0.3326,0.0171,,0.3403,0.0103,5 seeds,
 CloudTask,B3-RF,0.2585,0.0136,,0.3441,0.0253,5 seeds,
 CloudTask,B4-LGB,0.2836,0.0291,,0.3454,0.0180,5 seeds,
 CloudTask,B5-MLP,0.2841,0.0529,,0.3314,-0.0011,5 seeds,
+CloudTask,B6-XGBoost,0.6981,0.0200,,0.2976,0.0177,5 seeds,High RecallH but lowest MacroF1 = prediction bias not learning
 GoogleCluster,KATS,1.0000,0.0000,,0.9999,0.9998,5 seeds,Ceiling regime
 GoogleCluster,B1-LogReg,0.8849,0.0236,,0.9007,0.8597,5 seeds,
 GoogleCluster,B2-DecTree,0.9994,0.0001,,0.9996,0.9993,5 seeds,
 GoogleCluster,B3-RF,0.9999,0.0001,,0.9999,0.9998,5 seeds,
 GoogleCluster,B4-LGB,0.9999,0.0000,,0.9999,0.9998,5 seeds,
 GoogleCluster,B5-MLP,0.9987,0.0003,,0.9991,0.9987,5 seeds,
+GoogleCluster,B6-XGBoost,0.9999,0.0000,,0.9999,0.9998,5 seeds,Ceiling - same as LGB
 ITIncident,KATS,1.0000,0.0000,,0.9997,0.9996,5 seeds,Ceiling regime - 2.7% High
 ITIncident,B1-LogReg,1.0000,0.0000,,1.0000,1.0000,5 seeds,
 ITIncident,B2-DecTree,1.0000,0.0000,,1.0000,1.0000,5 seeds,
 ITIncident,B3-RF,1.0000,0.0000,,0.9991,0.9986,5 seeds,
 ITIncident,B4-LGB,1.0000,0.0000,,1.0000,1.0000,5 seeds,
 ITIncident,B5-MLP,0.9985,0.0029,,0.9990,0.9986,5 seeds,
+ITIncident,B6-XGBoost,1.0000,0.0000,,0.9997,0.9996,5 seeds,Ceiling - same tier as KATS
 MultiCloud,KATS,0.9218,0.0288,,0.8922,0.8380,5 seeds,Clean label - QoS_Score removed (C4 fix)
 MultiCloud,B1-LogReg,0.9067,0.0317,,0.8853,0.8290,5 seeds,
 MultiCloud,B2-DecTree,0.7532,0.0443,,0.7070,0.5591,5 seeds,
 MultiCloud,B3-RF,0.8463,0.0182,,0.8017,0.7030,5 seeds,
 MultiCloud,B4-LGB,0.8794,0.0320,,0.8351,0.7540,5 seeds,
 MultiCloud,B5-MLP,0.9578,0.0113,,0.9549,0.9325,5 seeds,MLP best on MultiCloud (honest finding NF1)
+MultiCloud,B6-XGBoost,0.8975,0.0260,,0.8348,0.7540,5 seeds,Same kappa as LGB on MultiCloud
