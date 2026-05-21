@@ -1,0 +1,11 @@
+Dataset,Variant,RecallH,MacroF1,Kappa,DeltaRecallH,DeltaKappa
+ITIncident,T-Full,1.0000,0.9997,0.9996,0.0000,0.0000
+ITIncident,T-NoSMOTE,1.0000,0.9993,0.9989,0.0000,-0.0007
+ITIncident,T-NoAsymLoss,1.0000,0.9997,0.9996,0.0000,0.0000
+ITIncident,T-NoCalibNB,1.0000,0.9997,0.9996,0.0000,0.0000
+ITIncident,T-NoStacking,1.0000,1.0000,1.0000,0.0000,+0.0004
+MultiCloud,T-Full,0.9218,0.8922,0.8380,0.0000,0.0000
+MultiCloud,T-NoSMOTE,0.9188,0.8942,0.8410,-0.0031,+0.0030
+MultiCloud,T-NoAsymLoss,0.9038,0.8862,0.8290,-0.0180,-0.0090
+MultiCloud,T-NoCalibNB,0.9156,0.8589,0.7900,-0.0062,-0.0480
+MultiCloud,T-NoStacking,0.9005,0.8348,0.7555,-0.0213,-0.0825
