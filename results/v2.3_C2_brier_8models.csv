@@ -1,0 +1,13 @@
+Dataset,Model,BrierScore
+CloudTask,KATS,0.2219
+CloudTask,LightGBM,0.2837
+CloudTask,MLP,0.2234
+GoogleCluster,KATS,0.0001
+GoogleCluster,LightGBM,0.0001
+GoogleCluster,MLP,0.0005
+ITIncident,KATS,0.0000
+ITIncident,LightGBM,0.0000
+ITIncident,MLP,0.0001
+MultiCloud,KATS,0.0488
+MultiCloud,LightGBM,0.0757
+MultiCloud,MLP,0.0370

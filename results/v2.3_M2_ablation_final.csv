@@ -1,0 +1,11 @@
+Dataset,Variant,RecallH,MacroF1,Kappa,DeltaRecallH,DeltaKappa,Notes
+ITIncident,T-Full,1.0000,0.9997,0.9996,0.0000,0.0000,Reference
+ITIncident,T-NoSMOTE,1.0000,0.9993,0.9989,0.0000,-0.0007,SMOTE has zero RecallH effect at IR=34.6 - feature discriminability dominates
+ITIncident,T-NoAsymLoss,1.0000,0.9997,0.9996,0.0000,0.0000,
+ITIncident,T-NoCalibNB,1.0000,0.9997,0.9996,0.0000,0.0000,
+ITIncident,T-NoStacking,1.0000,1.0000,1.0000,0.0000,+0.0004,
+MultiCloud,T-Full,0.9188,0.8942,0.8410,0.0000,0.0000,Reference
+MultiCloud,T-NoSMOTE,0.9188,0.8942,0.8410,0.0000,0.0000,SMOTE inactive at IR=1.0
+MultiCloud,T-NoAsymLoss,0.9098,0.8862,0.8290,-0.0090,-0.0120,
+MultiCloud,T-NoCalibNB,0.9187,0.8610,0.7930,-0.0001,-0.0480,
+MultiCloud,T-NoStacking,0.9065,0.8361,0.7570,-0.0123,-0.0840,
