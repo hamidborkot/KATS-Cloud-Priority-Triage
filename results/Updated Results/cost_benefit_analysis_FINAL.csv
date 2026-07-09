@@ -1,0 +1,6 @@
+Dataset,KATS_RecallH,BestBaseline,Baseline_RecallH,Expected_Savings_USD,Compute_Overhead_USD,Net_Benefit_USD
+CloudTask,0.408,LogReg,0.433,-500.0,0.0033,-500.0
+GoogleCluster,0.9996,RandomForest,0.9995,10.0,0.0256,9.97
+ITIncident,0.8471,LogReg,0.9265,-540.0,0.0121,-540.01
+MultiCloud,0.4187,NaiveBayes,0.654,-776.27,0.0013,-776.27
+CICIDS2017,0.9338,LightGBM,0.9981,-4980.0,0.0635,-4980.06

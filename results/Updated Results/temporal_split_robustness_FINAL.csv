@@ -1,0 +1,7 @@
+SplitType,Model,RecallHigh,Kappa
+Chronological,KATS,0.9635,0.1168
+Chronological,LightGBM,0.8613,0.1711
+Chronological,LogReg,0.9781,0.0582
+Random,KATS,0.7941,0.117
+Random,LightGBM,0.75,0.1968
+Random,LogReg,0.9265,0.0497
