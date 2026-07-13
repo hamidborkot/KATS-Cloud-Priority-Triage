@@ -1,0 +1,6 @@
+Dataset,BestCompetitor,KATS_RecallH,Competitor_RecallH,Savings_USD,Overhead_USD,Net_USD
+CloudTask,LogReg,0.4080,0.4330,-500.00,0.0033,-500.00
+GoogleCluster,RandomForest,0.9996,0.9995,10.00,0.0256,9.97
+ITIncident,LogReg,0.8471,0.9265,-540.00,0.0121,-540.01
+MultiCloud,NaiveBayes,0.4187,0.6540,-776.27,0.0013,-776.27
+CICIDS2017,LightGBM,0.9338,0.9981,-4980.00,0.0635,-4980.06

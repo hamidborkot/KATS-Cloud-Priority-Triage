@@ -1,0 +1,5 @@
+Model,FeatureSet,RecallH,Kappa
+KATS,With_Scheduler,0.9999,0.9998
+LightGBM,With_Scheduler,0.9999,0.9997
+KATS,Without_Scheduler,0.9996,0.9995
+LightGBM,Without_Scheduler,0.9988,0.9988
