@@ -1,0 +1,9 @@
+feature,type
+Memory_Usage (MB),numeric
+Storage_Usage (GB),numeric
+Response_Time (ms),numeric
+Load_Balancing (%),numeric
+Optimal_Service_Placement,numeric
+service_type_enc,categorical
+cloud_provider_enc,categorical
+edge_node_enc,categorical

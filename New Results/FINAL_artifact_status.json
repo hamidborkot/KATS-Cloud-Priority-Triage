@@ -1,0 +1,120 @@
+{
+  "source_dataset": "/kaggle/input/datasets/mdhamidborkottulla/validate-run",
+  "working_output": "/kaggle/working/KATS_CLUSTER_A_FINAL",
+  "restored_files": [
+    {
+      "source_name": "FINAL_always_high_per_seed.csv",
+      "restored_name": "FINAL_always_high_per_seed.csv",
+      "size_mb": 0.0
+    },
+    {
+      "source_name": "FINAL_always_high_summary.csv",
+      "restored_name": "FINAL_always_high_summary.csv",
+      "size_mb": 0.0
+    },
+    {
+      "source_name": "FINAL_appendix_per_seed_metrics.csv",
+      "restored_name": "FINAL_appendix_per_seed_metrics.csv",
+      "size_mb": 0.027
+    },
+    {
+      "source_name": "FINAL_artifact_status.json",
+      "restored_name": "FINAL_artifact_status.json",
+      "size_mb": 0.0
+    },
+    {
+      "source_name": "FINAL_table12_mcnemar_seed2026.csv",
+      "restored_name": "FINAL_table12_mcnemar_seed2026.csv",
+      "size_mb": 0.003
+    },
+    {
+      "source_name": "REVIEW_ablation_results_small.csv",
+      "restored_name": "REVIEW_ablation_results_small.csv",
+      "size_mb": 0.004
+    },
+    {
+      "source_name": "REVIEW_clusterA_small_report.txt",
+      "restored_name": "REVIEW_clusterA_small_report.txt",
+      "size_mb": 0.015
+    },
+    {
+      "source_name": "REVIEW_main_results_small.csv",
+      "restored_name": "REVIEW_main_results_small.csv",
+      "size_mb": 0.011
+    },
+    {
+      "source_name": "REVIEW_temporal_results_small.csv",
+      "restored_name": "REVIEW_temporal_results_small.csv",
+      "size_mb": 0.003
+    },
+    {
+      "source_name": "clusterA_ablation_per_seed (1).csv",
+      "restored_name": "clusterA_ablation_per_seed.csv",
+      "size_mb": 0.01
+    },
+    {
+      "source_name": "clusterA_ablation_summary (1).csv",
+      "restored_name": "clusterA_ablation_summary.csv",
+      "size_mb": 0.004
+    },
+    {
+      "source_name": "clusterA_calibration_bins.csv",
+      "restored_name": "clusterA_calibration_bins.csv",
+      "size_mb": 0.258
+    },
+    {
+      "source_name": "clusterA_confusion_matrices.csv",
+      "restored_name": "clusterA_confusion_matrices.csv",
+      "size_mb": 0.051
+    },
+    {
+      "source_name": "clusterA_ir_fixed_test_sensitivity.csv",
+      "restored_name": "clusterA_ir_fixed_test_sensitivity.csv",
+      "size_mb": 0.003
+    },
+    {
+      "source_name": "clusterA_main_metrics_per_seed.csv",
+      "restored_name": "clusterA_main_metrics_per_seed.csv",
+      "size_mb": 0.028
+    },
+    {
+      "source_name": "clusterA_matched_operating_points.csv",
+      "restored_name": "clusterA_matched_operating_points.csv",
+      "size_mb": 0.008
+    },
+    {
+      "source_name": "clusterA_predictions.csv",
+      "restored_name": "clusterA_predictions.csv",
+      "size_mb": 98.589
+    },
+    {
+      "source_name": "clusterA_temporal_sweep.csv",
+      "restored_name": "clusterA_temporal_sweep.csv",
+      "size_mb": 0.006
+    }
+  ],
+  "row_counts": {
+    "main_per_seed": 160,
+    "ablation_per_seed": 50,
+    "temporal": 36,
+    "matched": 40,
+    "ir_fixed_test": 16,
+    "predictions": 1167360
+  },
+  "feature_checks": {
+    "itincident_feature_count": 11,
+    "itincident_categorical_count": 8
+  },
+  "missing_files": [],
+  "validation_checks": {
+    "itincident_feature_count_11": true,
+    "itincident_categorical_count_8": true,
+    "main_per_seed_rows_160": true,
+    "ablation_per_seed_rows_100": false,
+    "temporal_rows_36": true,
+    "matched_operating_rows_40": true,
+    "fixed_test_ir_rows_100": false,
+    "probability_rows_saved": true,
+    "all_required_files_present": true
+  }
+}

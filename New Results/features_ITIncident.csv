@@ -1,0 +1,12 @@
+feature,type
+reassignment_count,numeric
+reopen_count,numeric
+sys_mod_count,numeric
+category_enc,categorical
+location_enc,categorical
+contact_type_enc,categorical
+assignment_group_enc,categorical
+cmdb_ci_enc,categorical
+subcategory_enc,categorical
+knowledge_enc,categorical
+reopen_flag,categorical

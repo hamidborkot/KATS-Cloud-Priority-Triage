@@ -1,0 +1,11 @@
+{
+  "itincident_feature_count_11": true,
+  "itincident_categorical_count_8": true,
+  "main_per_seed_rows_160": true,
+  "ablation_per_seed_rows_100": false,
+  "temporal_rows_36": true,
+  "matched_operating_rows_40": true,
+  "fixed_test_ir_rows_100": false,
+  "probability_rows_saved": true,
+  "all_required_files_present": true
+}
