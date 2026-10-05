@@ -1,0 +1,92 @@
+{
+  "dataset": "ITIncident",
+  "experiment": "temporal_first_event_matured_labels",
+  "model": "LightGBM",
+  "seed": 42,
+  "variant": "T_Full",
+  "case_id": "4bd243e823f8343de9c713c0",
+  "n_train": 17583,
+  "n_test": 4723,
+  "threshold": null,
+  "fit_seconds_selection_plus_refit": 1.7806896249967394,
+  "threshold_selection": {
+    "rule": "argmax",
+    "fallback_used": null
+  },
+  "shared_predictor_hash_groups": 860,
+  "group_overlap": 0,
+  "config_spec": {
+    "config": {
+      "version": "KATS_REVIEWER_REPAIR_R1_2026_10_02",
+      "datasets": [
+        "GoogleCluster",
+        "ITIncident",
+        "MultiCloud",
+        "CICIDS2017"
+      ],
+      "seeds": [
+        42,
+        7,
+        13,
+        99,
+        2026
+      ],
+      "jobs": 1,
+      "cv": 3,
+      "alpha_high": 5,
+      "high_weight_IR_gate": 3,
+      "numeric_missing": "training-median-Google/fixed-zero-others",
+      "categorical_encoding": "training-fold OrdinalEncoder unknown=-1",
+      "raw_passthrough": true,
+      "duplicate_split": "same-X groups when X repeats; otherwise stratified rows",
+      "baseline_defaults": "explicit BalancedRF bootstrap=False/replacement=True/all",
+      "threshold_grid": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "dayfirst": true,
+      "versions": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.3",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.6.1",
+        "lightgbm": "4.6.0",
+        "xgboost": "3.2.0",
+        "imbalanced-learn": "0.14.1",
+        "joblib": "1.5.3"
+      }
+    },
+    "raw": "fd184bbfd62329cfe093e99da2ea7071905f2ead91900b448eb2635870821bef",
+    "matrix": "70fb0c1ec7a238decc987270c140c9df8568f38018ab13bae88162f98a93faf281e39695ef3521e6b209fea61fb71dfcf8f9396ac557a050b98bfd39b71c9c1280c8035518b1b0ddd1319d5f4babc23a6479601765c18eba26a73fa225a1624eEARLY_FORWARD",
+    "experiment": "temporal_first_event_matured_labels",
+    "model": "LightGBM",
+    "seed": 42,
+    "variant": "T_Full",
+    "train": "57bc943eca3bad2b27baf39d97f13a5de907ea299c7dd7777ae12ddda8cc27cb",
+    "test": "58cf494ffa6709ef67cb191f0375c876ac6a4b418c235fc07fedba9a741a6b3f"
+  },
+  "RecallH": 0.7611940298507462,
+  "PrecH": 0.048733874820831344,
+  "MacroF1": 0.2568764766359963,
+  "Kappa": 0.02835926814629519,
+  "PRAUC_High": 0.0894881312256887,
+  "Brier": 0.24254445430335758,
+  "ECE": 0.355848591033398,
+  "FP_High": 1991,
+  "FN_High": 32,
+  "TP_High": 102,
+  "TN_High": 2598
+}
