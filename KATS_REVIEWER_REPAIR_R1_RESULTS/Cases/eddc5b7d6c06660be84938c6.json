@@ -1,0 +1,92 @@
+{
+  "dataset": "CICIDS2017",
+  "experiment": "main",
+  "model": "MLP",
+  "seed": 99,
+  "variant": "T_Full",
+  "case_id": "eddc5b7d6c06660be84938c6",
+  "n_train": 47999,
+  "n_test": 12001,
+  "threshold": null,
+  "fit_seconds_selection_plus_refit": 29.56419804000143,
+  "threshold_selection": {
+    "rule": "argmax",
+    "fallback_used": null
+  },
+  "shared_predictor_hash_groups": 0,
+  "group_overlap": 0,
+  "config_spec": {
+    "config": {
+      "version": "KATS_REVIEWER_REPAIR_R1_2026_10_02",
+      "datasets": [
+        "GoogleCluster",
+        "ITIncident",
+        "MultiCloud",
+        "CICIDS2017"
+      ],
+      "seeds": [
+        42,
+        7,
+        13,
+        99,
+        2026
+      ],
+      "jobs": 1,
+      "cv": 3,
+      "alpha_high": 5,
+      "high_weight_IR_gate": 3,
+      "numeric_missing": "training-median-Google/fixed-zero-others",
+      "categorical_encoding": "training-fold OrdinalEncoder unknown=-1",
+      "raw_passthrough": true,
+      "duplicate_split": "same-X groups when X repeats; otherwise stratified rows",
+      "baseline_defaults": "explicit BalancedRF bootstrap=False/replacement=True/all",
+      "threshold_grid": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "dayfirst": true,
+      "versions": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.3",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.6.1",
+        "lightgbm": "4.6.0",
+        "xgboost": "3.2.0",
+        "imbalanced-learn": "0.14.1",
+        "joblib": "1.5.3"
+      }
+    },
+    "raw": "0ce5a39edffcde3fce59d0dc4aabc9b1f6acab2c626fd7163be9c694f224c292",
+    "matrix": "156519e13858838c8e0ba94f1d3f871f9b794f4b087c5e43654f18aed309c1dae9638b544e406222c3968ce9d6244b2d85a1d08c0cc507dbae17017f1c9d0d8b21e92617e5b91a3ea8b0ae03e9869ccad29a238666dc0708286158f63699d9cb",
+    "experiment": "main",
+    "model": "MLP",
+    "seed": 99,
+    "variant": "T_Full",
+    "train": "7f65db25b7622131e5e790160add02a04960af50640dd9b889514b1cd5f84923",
+    "test": "b1e2b78557a993613b98bf8110fb9851f1e4b728f1d9641381e87653049997a3"
+  },
+  "RecallH": 0.9608472400513479,
+  "PrecH": 0.9822834645669292,
+  "MacroF1": 0.9539188533069648,
+  "Kappa": 0.9473042073532387,
+  "PRAUC_High": 0.9944989769066648,
+  "Brier": 0.008265440818104633,
+  "ECE": 0.005544308263523396,
+  "FP_High": 27,
+  "FN_High": 61,
+  "TP_High": 1497,
+  "TN_High": 10416
+}

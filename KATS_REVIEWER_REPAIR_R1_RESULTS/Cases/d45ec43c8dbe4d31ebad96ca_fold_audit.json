@@ -1,0 +1,101 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "learner": 0,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "c735db1fab4fb4091392b0a216d7c52d759d1fb0176def688751add1282021fe",
+      "validation_indices_hash": "5942e2a758fa9d44e014bfbd571f890c5fad294a0500c3694d550bb2b7d63cb5",
+      "fitted_preprocessing_rows_hash": "cc2c33fe12c934c06913cbf2b752209bb8110fd06fa646704efb459bf943684d",
+      "resampled": false
+    },
+    {
+      "fold": 0,
+      "learner": 1,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "c735db1fab4fb4091392b0a216d7c52d759d1fb0176def688751add1282021fe",
+      "validation_indices_hash": "5942e2a758fa9d44e014bfbd571f890c5fad294a0500c3694d550bb2b7d63cb5",
+      "fitted_preprocessing_rows_hash": "cc2c33fe12c934c06913cbf2b752209bb8110fd06fa646704efb459bf943684d",
+      "resampled": false
+    },
+    {
+      "fold": 0,
+      "learner": 2,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "c735db1fab4fb4091392b0a216d7c52d759d1fb0176def688751add1282021fe",
+      "validation_indices_hash": "5942e2a758fa9d44e014bfbd571f890c5fad294a0500c3694d550bb2b7d63cb5",
+      "fitted_preprocessing_rows_hash": "cc2c33fe12c934c06913cbf2b752209bb8110fd06fa646704efb459bf943684d",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 0,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "b0fcbd1514211878e6ebcc6b0ac5d26957f5f49941d8411bd581a0e36a585ac0",
+      "validation_indices_hash": "5df14f46149cc1cb127a6b4ce0aa25f5ad7b18bc119988b96db0e21448e0c74f",
+      "fitted_preprocessing_rows_hash": "e4eb5ccf0b8e7d4f1c537fef91cd27f6e253b9f44aa5cdf1a704671dc426fb6f",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 1,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "b0fcbd1514211878e6ebcc6b0ac5d26957f5f49941d8411bd581a0e36a585ac0",
+      "validation_indices_hash": "5df14f46149cc1cb127a6b4ce0aa25f5ad7b18bc119988b96db0e21448e0c74f",
+      "fitted_preprocessing_rows_hash": "e4eb5ccf0b8e7d4f1c537fef91cd27f6e253b9f44aa5cdf1a704671dc426fb6f",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 2,
+      "train_n": 32311,
+      "validation_n": 16156,
+      "train_indices_hash": "b0fcbd1514211878e6ebcc6b0ac5d26957f5f49941d8411bd581a0e36a585ac0",
+      "validation_indices_hash": "5df14f46149cc1cb127a6b4ce0aa25f5ad7b18bc119988b96db0e21448e0c74f",
+      "fitted_preprocessing_rows_hash": "e4eb5ccf0b8e7d4f1c537fef91cd27f6e253b9f44aa5cdf1a704671dc426fb6f",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 0,
+      "train_n": 32312,
+      "validation_n": 16155,
+      "train_indices_hash": "9d125784b55bea74c6fe83cd6ade5814da4cf32fa101844e11948c75b677cc3a",
+      "validation_indices_hash": "48e315b919fcf1545c400c5af7b19cacc0a78133f7967421eb0eabd975326cec",
+      "fitted_preprocessing_rows_hash": "2e00a1da37e53b0465259e734d3844f7efb0f7aaabe943a424eccbf3fd1692bc",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 1,
+      "train_n": 32312,
+      "validation_n": 16155,
+      "train_indices_hash": "9d125784b55bea74c6fe83cd6ade5814da4cf32fa101844e11948c75b677cc3a",
+      "validation_indices_hash": "48e315b919fcf1545c400c5af7b19cacc0a78133f7967421eb0eabd975326cec",
+      "fitted_preprocessing_rows_hash": "2e00a1da37e53b0465259e734d3844f7efb0f7aaabe943a424eccbf3fd1692bc",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 2,
+      "train_n": 32312,
+      "validation_n": 16155,
+      "train_indices_hash": "9d125784b55bea74c6fe83cd6ade5814da4cf32fa101844e11948c75b677cc3a",
+      "validation_indices_hash": "48e315b919fcf1545c400c5af7b19cacc0a78133f7967421eb0eabd975326cec",
+      "fitted_preprocessing_rows_hash": "2e00a1da37e53b0465259e734d3844f7efb0f7aaabe943a424eccbf3fd1692bc",
+      "resampled": false
+    }
+  ],
+  "meta_warnings": [
+    "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0."
+  ],
+  "meta_iterations": [
+    1929
+  ],
+  "meta_training_n": 48467
+}
