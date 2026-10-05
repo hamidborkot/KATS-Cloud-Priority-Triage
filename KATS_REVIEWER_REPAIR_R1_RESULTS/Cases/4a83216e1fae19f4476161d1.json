@@ -1,0 +1,92 @@
+{
+  "dataset": "GoogleCluster",
+  "experiment": "main",
+  "model": "XGBoost",
+  "seed": 2026,
+  "variant": "T_Full",
+  "case_id": "4a83216e1fae19f4476161d1",
+  "n_train": 48263,
+  "n_test": 11737,
+  "threshold": null,
+  "fit_seconds_selection_plus_refit": 6.2106957860000875,
+  "threshold_selection": {
+    "rule": "argmax",
+    "fallback_used": null
+  },
+  "shared_predictor_hash_groups": 0,
+  "group_overlap": 0,
+  "config_spec": {
+    "config": {
+      "version": "KATS_REVIEWER_REPAIR_R1_2026_10_02",
+      "datasets": [
+        "GoogleCluster",
+        "ITIncident",
+        "MultiCloud",
+        "CICIDS2017"
+      ],
+      "seeds": [
+        42,
+        7,
+        13,
+        99,
+        2026
+      ],
+      "jobs": 1,
+      "cv": 3,
+      "alpha_high": 5,
+      "high_weight_IR_gate": 3,
+      "numeric_missing": "training-median-Google/fixed-zero-others",
+      "categorical_encoding": "training-fold OrdinalEncoder unknown=-1",
+      "raw_passthrough": true,
+      "duplicate_split": "same-X groups when X repeats; otherwise stratified rows",
+      "baseline_defaults": "explicit BalancedRF bootstrap=False/replacement=True/all",
+      "threshold_grid": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "dayfirst": true,
+      "versions": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.3",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.6.1",
+        "lightgbm": "4.6.0",
+        "xgboost": "3.2.0",
+        "imbalanced-learn": "0.14.1",
+        "joblib": "1.5.3"
+      }
+    },
+    "raw": "c3362a78555b7bd10d27a693da4e4c7230ac323359a5bfe0e75340c27b416b0d",
+    "matrix": "6015bd815bba3d55ed9d599ebc480f882810c3c7391e9f5c9e77aea22b6761431ba281885aa7e2eb9355b93a195f466de85ffdb23a3a93ef9c5328ffb7e91f057fdbdc1579075a6763ebbdad58a4a81e1117bfd9d417a42664b3173898345235",
+    "experiment": "main",
+    "model": "XGBoost",
+    "seed": 2026,
+    "variant": "T_Full",
+    "train": "6a1f491befa57ea0e239ce39fee929cc9137197f9c4a8267a4aa065ffb59b125",
+    "test": "36273bdcc3798f655c8466dd9d554dadd3b94ba375e1bed8254bf7a494467d47"
+  },
+  "RecallH": 0.999559277214632,
+  "PrecH": 0.9986789960369881,
+  "MacroF1": 0.9993590046733102,
+  "Kappa": 0.9989376926221251,
+  "PRAUC_High": 0.9999584385520901,
+  "Brier": 0.0003981606120441851,
+  "ECE": 0.0009268881683804813,
+  "FP_High": 6,
+  "FN_High": 2,
+  "TP_High": 4536,
+  "TN_High": 7193
+}

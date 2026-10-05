@@ -1,0 +1,102 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "learner": 0,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "74a7daa1e23505fe05eb06a8f6f42598f476448efa7610d92b88300954cd41e2",
+      "validation_indices_hash": "f4e16141e3a8796d6d95384e05390a689f7da1e24667946eb6f810c60a5c0a21",
+      "fitted_preprocessing_rows_hash": "d8738413f0219b41684bf28df5507df55c8da77b1254a43b0e4410fb35ccc047",
+      "resampled": false
+    },
+    {
+      "fold": 0,
+      "learner": 1,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "74a7daa1e23505fe05eb06a8f6f42598f476448efa7610d92b88300954cd41e2",
+      "validation_indices_hash": "f4e16141e3a8796d6d95384e05390a689f7da1e24667946eb6f810c60a5c0a21",
+      "fitted_preprocessing_rows_hash": "d8738413f0219b41684bf28df5507df55c8da77b1254a43b0e4410fb35ccc047",
+      "resampled": false
+    },
+    {
+      "fold": 0,
+      "learner": 2,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "74a7daa1e23505fe05eb06a8f6f42598f476448efa7610d92b88300954cd41e2",
+      "validation_indices_hash": "f4e16141e3a8796d6d95384e05390a689f7da1e24667946eb6f810c60a5c0a21",
+      "fitted_preprocessing_rows_hash": "d8738413f0219b41684bf28df5507df55c8da77b1254a43b0e4410fb35ccc047",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 0,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "8db638d56169dc50d203047c8461cd97e7e7abaf20c40c59575e7099fe71b058",
+      "validation_indices_hash": "00ed115ca027ae518ff6629b2f2886e04dcf711f8d0d84efa0ab848b0716184d",
+      "fitted_preprocessing_rows_hash": "ff9f6cfdb280e92661b84b20f5b3e99e2714602590db54c33cb29db90523f68b",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 1,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "8db638d56169dc50d203047c8461cd97e7e7abaf20c40c59575e7099fe71b058",
+      "validation_indices_hash": "00ed115ca027ae518ff6629b2f2886e04dcf711f8d0d84efa0ab848b0716184d",
+      "fitted_preprocessing_rows_hash": "ff9f6cfdb280e92661b84b20f5b3e99e2714602590db54c33cb29db90523f68b",
+      "resampled": false
+    },
+    {
+      "fold": 1,
+      "learner": 2,
+      "train_n": 533,
+      "validation_n": 267,
+      "train_indices_hash": "8db638d56169dc50d203047c8461cd97e7e7abaf20c40c59575e7099fe71b058",
+      "validation_indices_hash": "00ed115ca027ae518ff6629b2f2886e04dcf711f8d0d84efa0ab848b0716184d",
+      "fitted_preprocessing_rows_hash": "ff9f6cfdb280e92661b84b20f5b3e99e2714602590db54c33cb29db90523f68b",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 0,
+      "train_n": 534,
+      "validation_n": 266,
+      "train_indices_hash": "beef2d14705be2d9a2508119968ff403c7655d4f8394b6e5a0fbb22ad7ecccd4",
+      "validation_indices_hash": "dec9396ea04150258e235be0a11cef1ecdd5372d3533cc24cb86f3c52e0f2bb7",
+      "fitted_preprocessing_rows_hash": "73c2b0dd60c8eaa1493ce70a7519db376757f26be6b590517bf5ebc2fc609f10",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 1,
+      "train_n": 534,
+      "validation_n": 266,
+      "train_indices_hash": "beef2d14705be2d9a2508119968ff403c7655d4f8394b6e5a0fbb22ad7ecccd4",
+      "validation_indices_hash": "dec9396ea04150258e235be0a11cef1ecdd5372d3533cc24cb86f3c52e0f2bb7",
+      "fitted_preprocessing_rows_hash": "73c2b0dd60c8eaa1493ce70a7519db376757f26be6b590517bf5ebc2fc609f10",
+      "resampled": false
+    },
+    {
+      "fold": 2,
+      "learner": 2,
+      "train_n": 534,
+      "validation_n": 266,
+      "train_indices_hash": "beef2d14705be2d9a2508119968ff403c7655d4f8394b6e5a0fbb22ad7ecccd4",
+      "validation_indices_hash": "dec9396ea04150258e235be0a11cef1ecdd5372d3533cc24cb86f3c52e0f2bb7",
+      "fitted_preprocessing_rows_hash": "73c2b0dd60c8eaa1493ce70a7519db376757f26be6b590517bf5ebc2fc609f10",
+      "resampled": false
+    }
+  ],
+  "meta_warnings": [
+    "scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.",
+    "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html\nPlease also refer to the documentation for alternative solver options:\n    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+  ],
+  "meta_iterations": [
+    2000
+  ],
+  "meta_training_n": 800
+}
