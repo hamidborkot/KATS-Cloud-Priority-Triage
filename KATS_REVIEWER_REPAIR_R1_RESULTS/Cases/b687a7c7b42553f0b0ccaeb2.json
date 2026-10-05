@@ -1,0 +1,92 @@
+{
+  "dataset": "ITIncident",
+  "experiment": "temporal_final_information_0.7",
+  "model": "LogReg",
+  "seed": 7,
+  "variant": "T_Full",
+  "case_id": "b687a7c7b42553f0b0ccaeb2",
+  "n_train": 22704,
+  "n_test": 2214,
+  "threshold": null,
+  "fit_seconds_selection_plus_refit": 0.4232886630015855,
+  "threshold_selection": {
+    "rule": "argmax",
+    "fallback_used": null
+  },
+  "shared_predictor_hash_groups": 351,
+  "group_overlap": 0,
+  "config_spec": {
+    "config": {
+      "version": "KATS_REVIEWER_REPAIR_R1_2026_10_02",
+      "datasets": [
+        "GoogleCluster",
+        "ITIncident",
+        "MultiCloud",
+        "CICIDS2017"
+      ],
+      "seeds": [
+        42,
+        7,
+        13,
+        99,
+        2026
+      ],
+      "jobs": 1,
+      "cv": 3,
+      "alpha_high": 5,
+      "high_weight_IR_gate": 3,
+      "numeric_missing": "training-median-Google/fixed-zero-others",
+      "categorical_encoding": "training-fold OrdinalEncoder unknown=-1",
+      "raw_passthrough": true,
+      "duplicate_split": "same-X groups when X repeats; otherwise stratified rows",
+      "baseline_defaults": "explicit BalancedRF bootstrap=False/replacement=True/all",
+      "threshold_grid": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "dayfirst": true,
+      "versions": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.3",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.6.1",
+        "lightgbm": "4.6.0",
+        "xgboost": "3.2.0",
+        "imbalanced-learn": "0.14.1",
+        "joblib": "1.5.3"
+      }
+    },
+    "raw": "fd184bbfd62329cfe093e99da2ea7071905f2ead91900b448eb2635870821bef",
+    "matrix": "ac8b7b2505d228757b1b5e4668b08a607ed0b819f5d2ad3f85160efe1b0750db81e39695ef3521e6b209fea61fb71dfcf8f9396ac557a050b98bfd39b71c9c1265a94d5f843fb8f19b606e8c470fb36dd5514e38380ba3dc267cc3e2e9bf5892",
+    "experiment": "temporal_final_information_0.7",
+    "model": "LogReg",
+    "seed": 7,
+    "variant": "T_Full",
+    "train": "bfe1bbe61a89c36138f947bdbb7dd131ec060c9a7f1e0aad5e10a63a35982216",
+    "test": "3dbfcfc948c99fe8cdc03e1d0c877ec3652edb59bd1476cba6d95d66032deb05"
+  },
+  "RecallH": 0.7368421052631579,
+  "PrecH": 0.04409448818897638,
+  "MacroF1": 0.20220748582993306,
+  "Kappa": 0.014476485388039473,
+  "PRAUC_High": 0.035514616452577634,
+  "Brier": 0.3165989492781456,
+  "ECE": 0.430954929053285,
+  "FP_High": 1214,
+  "FN_High": 20,
+  "TP_High": 56,
+  "TN_High": 924
+}
