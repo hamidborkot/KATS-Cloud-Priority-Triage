@@ -1,0 +1,13 @@
+{
+  "case_id": "d9113d37be59f389994eafaa",
+  "actual_base_learner_index": 0,
+  "prediction_identity_pass": true,
+  "global_rho": 0.9636363636363637,
+  "global_p": 1.852039864070312e-06,
+  "sample": "class-enriched actual test rows, one seed42",
+  "output": "P(High), NOT discrete thresholded priority decision",
+  "background": "25 actual training rows",
+  "nsamples": 300,
+  "shap_version": "0.50.0",
+  "perturbation": "marginal masking in numeric coordinate representation with exact category inverse; not conditional/causal"
+}

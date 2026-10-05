@@ -1,0 +1,24 @@
+{
+  "dataset": "GoogleCluster",
+  "source_path": "/kaggle/input/datasets/derrickmwiti/google-2019-cluster-sample/borg_traces_data.csv",
+  "raw_sha256": "c3362a78555b7bd10d27a693da4e4c7230ac323359a5bfe0e75340c27b416b0d",
+  "raw_rows": 405894,
+  "raw_full_row_duplicates": 0,
+  "retained_rows": 60000,
+  "features": 18,
+  "class_order": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "class_counts": {
+    "High": 23099,
+    "Low": 12494,
+    "Medium": 24407
+  },
+  "predictor_duplicate_rows": 9564,
+  "predictor_label_duplicate_rows": 9564,
+  "learned_preprocessing": "per-fit training only",
+  "retained_matrix_hash": "6015bd815bba3d55ed9d599ebc480f882810c3c7391e9f5c9e77aea22b6761431ba281885aa7e2eb9355b93a195f466de85ffdb23a3a93ef9c5328ffb7e91f057fdbdc1579075a6763ebbdad58a4a81e1117bfd9d417a42664b3173898345235",
+  "availability": "retrospective retained-state classification; early IT analysed separately"
+}

@@ -1,0 +1,12 @@
+feature,categorical
+reassignment_count,False
+reopen_count,False
+sys_mod_count,False
+category_enc,True
+location_enc,True
+contact_type_enc,True
+assignment_group_enc,True
+cmdb_ci_enc,True
+subcategory_enc,True
+knowledge_enc,True
+reopen_flag,True

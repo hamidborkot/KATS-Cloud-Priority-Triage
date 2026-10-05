@@ -1,0 +1,16 @@
+{
+  "hardware": "Linux-6.18.48+-x86_64-with-glibc2.35",
+  "cpu": "x86_64",
+  "logical_cores": 4,
+  "jobs": 1,
+  "call": "predict_proba of EXACT saved main model; includes its fitted preprocessing, NOT raw ingestion or priority override",
+  "warmups": 1,
+  "repeats": 30,
+  "p95": "numpy percentile95 linear interpolation",
+  "units": "microseconds per item AND total microseconds per batch",
+  "threads": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  }
+}

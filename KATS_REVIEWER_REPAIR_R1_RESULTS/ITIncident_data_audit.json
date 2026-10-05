@@ -1,0 +1,24 @@
+{
+  "dataset": "ITIncident",
+  "source_path": "/kaggle/input/datasets/shamiulislamshifat/it-incident-log-dataset/incident_event_log.csv",
+  "raw_sha256": "fd184bbfd62329cfe093e99da2ea7071905f2ead91900b448eb2635870821bef",
+  "raw_rows": 141712,
+  "raw_full_row_duplicates": 0,
+  "retained_rows": 24918,
+  "features": 11,
+  "class_order": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "class_counts": {
+    "High": 678,
+    "Low": 774,
+    "Medium": 23466
+  },
+  "predictor_duplicate_rows": 9496,
+  "predictor_label_duplicate_rows": 9231,
+  "learned_preprocessing": "per-fit training only",
+  "retained_matrix_hash": "ac8b7b2505d228757b1b5e4668b08a607ed0b819f5d2ad3f85160efe1b0750db81e39695ef3521e6b209fea61fb71dfcf8f9396ac557a050b98bfd39b71c9c1265a94d5f843fb8f19b606e8c470fb36dd5514e38380ba3dc267cc3e2e9bf5892",
+  "availability": "retrospective retained-state classification; early IT analysed separately"
+}

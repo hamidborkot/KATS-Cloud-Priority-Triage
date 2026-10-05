@@ -1,0 +1,9 @@
+feature,categorical
+Memory_Usage (MB),False
+Storage_Usage (GB),False
+Response_Time (ms),False
+Load_Balancing (%),False
+Optimal_Service_Placement,False
+service_type_enc,True
+cloud_provider_enc,True
+edge_node_enc,True

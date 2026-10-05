@@ -1,0 +1,58 @@
+[
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FINAL6_CAT",
+    "model": "KATS",
+    "seed": 42,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FINAL6_CAT",
+    "model": "KATS",
+    "seed": 7,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FINAL6_CAT",
+    "model": "KATS",
+    "seed": 13,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FIRST_EVENT6",
+    "model": "KATS",
+    "seed": 42,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FIRST_EVENT6",
+    "model": "KATS",
+    "seed": 7,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "availability_FIRST_EVENT6",
+    "model": "KATS",
+    "seed": 13,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  },
+  {
+    "dataset": "ITIncident",
+    "experiment": "temporal_first_event_matured_labels",
+    "model": "KATS",
+    "seed": 42,
+    "variant": "T_Full",
+    "error": "ValueError('SMOTE-NC is not designed to work only with categorical features. It requires some numerical features.')"
+  }
+]

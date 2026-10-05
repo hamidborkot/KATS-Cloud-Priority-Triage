@@ -1,0 +1,8 @@
+attack_type,_label,count
+Bots,High,1948
+Brute Force,Medium,9150
+DDoS,High,128014
+DoS,High,193745
+Normal Traffic,Low,2095057
+Port Scanning,Medium,90694
+Web Attacks,High,2143
