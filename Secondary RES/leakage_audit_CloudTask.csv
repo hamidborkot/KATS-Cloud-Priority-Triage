@@ -1,0 +1,15 @@
+feature,balanced_stump_accuracy
+service_criticality,0.6516594089544666
+rto_minutes,0.6492068214319542
+regulatory_flag,0.6363537846861147
+rpo_minutes,0.6294770819271974
+latency_sensitivity,0.4761121270385364
+downstream_critical,0.4325253871680797
+az_risk_score,0.35152361138875177
+redundancy_level,0.35113414278367305
+multi_region_deployed,0.3384969655291884
+dependency_count,0.3370785734086455
+bandwidth_required_mbps,0.3340265387613274
+migration_complexity,0.3333558151894406
+active_sessions,0.33050878688241797
+data_volume_gb,0.32626914724964545

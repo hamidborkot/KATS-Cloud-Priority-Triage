@@ -1,0 +1,70 @@
+{
+  "KATS_stacked": {
+    "confusion_matrix": [
+      [
+        1448,
+        97,
+        6
+      ],
+      [
+        4004,
+        5165,
+        805
+      ],
+      [
+        1,
+        13,
+        461
+      ]
+    ],
+    "classes_order": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "MacroF1": 0.5395537867762957,
+    "RecallHigh": 0.9335912314635719
+  },
+  "LightGBM_solo": {
+    "confusion_matrix": [
+      [
+        1544,
+        7,
+        0
+      ],
+      [
+        5,
+        9965,
+        4
+      ],
+      [
+        2,
+        1,
+        472
+      ]
+    ],
+    "MacroF1": 0.9957579504200084,
+    "RecallHigh": 0.9954867827208252
+  },
+  "ProbabilityAveraging": {
+    "confusion_matrix": [
+      [
+        1532,
+        19,
+        0
+      ],
+      [
+        3,
+        9968,
+        3
+      ],
+      [
+        2,
+        4,
+        469
+      ]
+    ],
+    "MacroF1": 0.9937572471481566,
+    "RecallHigh": 0.9877498388136686
+  }
+}

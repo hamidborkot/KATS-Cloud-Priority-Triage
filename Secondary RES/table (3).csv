@@ -1,0 +1,8 @@
+Baseline,b₁₀,b₀₁,ΔAcc.,p_Holm,Direction
+LightGBM,271,251,+0.0167,1.0000,KATS
+XGBoost,272,225,+0.0392,0.2728,KATS
+RandomForest,267,252,+0.0125,1.0000,KATS
+BalancedRF,264,253,+0.0092,1.0000,KATS
+MLP,286,259,+0.0225,1.0000,KATS
+LogReg,76,59,+0.0142,1.0000,KATS
+NaiveBayes,146,149,−0.0025,1.0000,Baseline

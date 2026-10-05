@@ -1,0 +1,2 @@
+Dataset,Train (s): LightGBM vs KATS,KATS latency (µs/item),Overhead
+CloudTask,1.11 vs 14.81,"38,450",13.3×
