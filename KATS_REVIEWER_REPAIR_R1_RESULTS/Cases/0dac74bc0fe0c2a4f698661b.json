@@ -1,0 +1,92 @@
+{
+  "dataset": "ITIncident",
+  "experiment": "main",
+  "model": "RandomForest",
+  "seed": 99,
+  "variant": "T_Full",
+  "case_id": "0dac74bc0fe0c2a4f698661b",
+  "n_train": 20099,
+  "n_test": 4819,
+  "threshold": null,
+  "fit_seconds_selection_plus_refit": 3.7404005360003794,
+  "threshold_selection": {
+    "rule": "argmax",
+    "fallback_used": null
+  },
+  "shared_predictor_hash_groups": 0,
+  "group_overlap": 0,
+  "config_spec": {
+    "config": {
+      "version": "KATS_REVIEWER_REPAIR_R1_2026_10_02",
+      "datasets": [
+        "GoogleCluster",
+        "ITIncident",
+        "MultiCloud",
+        "CICIDS2017"
+      ],
+      "seeds": [
+        42,
+        7,
+        13,
+        99,
+        2026
+      ],
+      "jobs": 1,
+      "cv": 3,
+      "alpha_high": 5,
+      "high_weight_IR_gate": 3,
+      "numeric_missing": "training-median-Google/fixed-zero-others",
+      "categorical_encoding": "training-fold OrdinalEncoder unknown=-1",
+      "raw_passthrough": true,
+      "duplicate_split": "same-X groups when X repeats; otherwise stratified rows",
+      "baseline_defaults": "explicit BalancedRF bootstrap=False/replacement=True/all",
+      "threshold_grid": [
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "dayfirst": true,
+      "versions": {
+        "numpy": "2.0.2",
+        "pandas": "2.3.3",
+        "scipy": "1.16.3",
+        "scikit-learn": "1.6.1",
+        "lightgbm": "4.6.0",
+        "xgboost": "3.2.0",
+        "imbalanced-learn": "0.14.1",
+        "joblib": "1.5.3"
+      }
+    },
+    "raw": "fd184bbfd62329cfe093e99da2ea7071905f2ead91900b448eb2635870821bef",
+    "matrix": "ac8b7b2505d228757b1b5e4668b08a607ed0b819f5d2ad3f85160efe1b0750db81e39695ef3521e6b209fea61fb71dfcf8f9396ac557a050b98bfd39b71c9c1265a94d5f843fb8f19b606e8c470fb36dd5514e38380ba3dc267cc3e2e9bf5892",
+    "experiment": "main",
+    "model": "RandomForest",
+    "seed": 99,
+    "variant": "T_Full",
+    "train": "fd732a2d0ee145d96f78d60ef3686a6c5a2aef876c65c014929f0c4117ab1bf0",
+    "test": "030b592467b6b9c2ddad14d5f5f688965b02dda427f23cb84c9bafa239356227"
+  },
+  "RecallH": 0.050724637681159424,
+  "PrecH": 0.5833333333333334,
+  "MacroF1": 0.36736531311751763,
+  "Kappa": 0.05676901612965646,
+  "PRAUC_High": 0.18667637644367668,
+  "Brier": 0.04323105584649353,
+  "ECE": 0.02173773819834911,
+  "FP_High": 5,
+  "FN_High": 131,
+  "TP_High": 7,
+  "TN_High": 4676
+}
